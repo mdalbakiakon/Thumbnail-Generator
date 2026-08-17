@@ -5,9 +5,7 @@
  width="1704.000000pt" height="1704.000000pt" viewBox="0 0 1704.000000 1704.000000"
  preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,1704.000000) scale(0.100000,-0.100000)"
-fill="#111111" stroke="none">
-<rect x="1321" y="1348" width="7037" height="14493" fill="#d3d3d3" stroke="none"/>
-<rect x="8691" y="1348" width="7028" height="14493" fill="#d3d3d3" stroke="none"/>
+fill="rgba(255,255,255,0.25)" stroke="none">
 <path d="M394 16668 c-9 -14 -4 -16212 5 -16217 5 -3 3653 -6 8108 -6 l8098 1
 0 8112 0 8112 -8103 3 c-4457 1 -8106 -1 -8108 -5z m4607 -838 c19 -11 19 -38
 19 -1475 0 -905 4 -1466 9 -1470 6 -3 749 -5 1653 -5 1027 0 1649 -4 1658 -10

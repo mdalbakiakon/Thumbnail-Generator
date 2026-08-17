@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import AllRoute from "./components/AllRoute";
 
 const App = () => {
   return (
-    <>App</>
-  )
-}
+    <>
+      <AllRoute />
+    </>
+  );
+};
 
-export default App
+export default App;

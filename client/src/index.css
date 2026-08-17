@@ -1,1 +1,20 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+:root{
+    --bg-main: #111;
+    --txt-main: #d3d3d3;
+    --txt-weight: 600;
+}
+
+body {
+  font-family: "Google Sans", sans-serif;
+  font-size: 14px;
+  background-color: var(--bg-main);
+  color: var(--txt-main);
+  font-weight: var(--txt-weight);
+}
+
+section {
+  width: 100%;
+  min-height: 100svh;
+}
