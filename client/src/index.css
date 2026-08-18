@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
-:root{
-    --bg-main: #111;
-    --txt-main: #d3d3d3;
-    --txt-weight: 600;
+:root {
+  --bg-main: #111;
+  --txt-main: #d3d3d3;
+  --txt-weight: 600;
 }
 
 body {
@@ -17,4 +17,37 @@ body {
 section {
   width: 100%;
   min-height: 100svh;
+}
+
+.animate-marquee,
+.animate-marquee-reverse {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 30s linear infinite;
 }
