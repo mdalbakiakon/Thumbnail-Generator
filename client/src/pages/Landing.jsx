@@ -1,6 +1,7 @@
 import React from "react";
 import Pricing from "./Pricing";
 import ImageAutoScroller from "../components/ImageAutoScroller";
+import Generate from "./Generate";
 
 const Landing = () => {
   return (
@@ -16,9 +17,9 @@ const Landing = () => {
 
           {/* headers and tags */}
           <div className="w-full h-full p-2.5 text-center relative z-20 bg-[linear-gradient(to_bottom,var(--bg-main)_10%,transparent,var(--bg-main)_90%)] flex flex-col justify-end items-center">
-            <h1 className="flex flex-col font-black z-10 relative mix-blend-difference tracking-tighter w-full max-w-5xl mx-auto">
+            <h1 className="flex flex-col font-black z-10 relative mix-blend-difference tracking-tighter w-full max-w-5xl mx-auto select-none">
               <span className="text-xl sm:text-2xl md:text-3xl text-shadow-2xs">Ai Thumbnail</span>
-              <span className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.85] uppercase bg-clip-text text-transparent bg-[linear-gradient(to_right,#50a5b5,#a7f3d0)] text-shadow-2xs">
+              <span className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.85] uppercase bg-clip-text text-transparent bg-[linear-gradient(120deg,#ab85d4,#d3d3d3)] text-shadow-2xs">
                 Generator
               </span>
             </h1>
@@ -34,6 +35,9 @@ const Landing = () => {
           </div>
         </div>
       </section>
+
+      {/* generate */}
+      <Generate />
 
       {/* pricing section */}
       <Pricing />

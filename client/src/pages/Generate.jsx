@@ -2,7 +2,9 @@ import React from 'react'
 
 const Generate = () => {
   return (
-    <div>Generate</div>
+    <section className='p-2.5'>Generate
+        
+    </section>
   )
 }
 

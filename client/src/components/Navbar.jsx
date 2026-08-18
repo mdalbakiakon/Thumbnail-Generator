@@ -20,7 +20,7 @@ const Navbar = () => {
         </nav>
 
         {/* cta btn */}
-        <button className="h-full px-2.5 rounded-full bg-(--txt-main) tracking-tight text-(--bg-main) cursor-pointer">Get Started</button>
+        <button className="h-full px-2.5 rounded-full bg-[linear-gradient(30deg,#ab85d4,#d3d3d3)] tracking-tight text-white mix-blend-difference cursor-pointer font-bold">Get Started</button>
       </div>
     </header>
   );
